@@ -1,6 +1,6 @@
 import numpy as np
 from dense import Dense
-from activations import Tanh
+from activation import Tanh
 from losses import mse, mse_prime
 
 X = np.reshape([[0, 0], [0, 1], [1, 0], [1, 1]], (4, 2, 1))
